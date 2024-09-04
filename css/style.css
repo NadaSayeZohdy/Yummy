@@ -1,0 +1,57 @@
+body {
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.container{
+    color: #fff;
+}
+.loading{
+    z-index: 999;
+    display: flex;
+}
+.nav-menu{
+    z-index: 99;
+}
+
+.logo {
+    width: 50px;
+}
+.open-close-icon ,.fa-share-nodes , .fa-globe{
+    cursor: pointer;
+}
+.meal-layer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 200%;
+    background-color: #f9f6f6ca;
+    transition: .5s;
+}
+.meal:hover .meal-layer{
+    top: 0;
+}
+.alert{
+    width: fit-content;
+}
+.form-control::placeholder {
+    color: #5c5a5a;
+    opacity: 1; /* Firefox */
+  }
+  
+.form-control::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #5c5a5a;}
+
+    .inner-loading{
+        z-index: 98;
+    }
+    .truncate p {
+        overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      }
